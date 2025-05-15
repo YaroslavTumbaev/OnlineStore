@@ -1,0 +1,12 @@
+.Admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Admin button {
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 70px;
+}

@@ -1,0 +1,77 @@
+.Device {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBlock {
+    border: 2px solid rgb(138, 206, 139);
+    width: 90%;
+    height: 420px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.description {
+    height: 200px;
+    width: 600px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgb(138, 206, 139);
+}
+
+.addComment {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(254, 225, 182);
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addComment2 {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(254, 225, 182);
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.comments {
+    height: 100px;
+    width: 600px;
+    border: 1px solid gray;
+    border-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info {
+    height: 400px;
+    width: 200px;
+    border: 1px solid gray;
+}
+
+.priceBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(254, 225, 182);
+    width: 90%;
+    height: 60px;
+    color: rgb(138, 206, 139);
+    border-radius: 5px;
+}

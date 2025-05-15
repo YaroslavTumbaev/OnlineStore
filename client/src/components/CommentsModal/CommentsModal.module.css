@@ -1,0 +1,17 @@
+.Comment {
+    width: 90%;
+    height: auto;
+    min-height: 50px;
+    background-color: rgba(128, 128, 128, 0.318);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.commentText {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}

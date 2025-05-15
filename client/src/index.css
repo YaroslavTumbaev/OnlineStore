@@ -1,0 +1,19 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(138, 206, 139);
+  cursor: pointer;
+  color: rgb(253, 226, 230);
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: rgb(253, 226, 230);
+}

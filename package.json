@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "npm": "^11.3.0"
+  },
+  "homepage": "https://YaroslavTumbaev.github.io/OnlineStore",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

@@ -2,7 +2,6 @@ import { FC, useContext } from 'react'
 import styles from './DeviceBlock.module.css'
 import DeviceCard from './DeviceCard'
 import { UserContext } from '../../contexts/UserContext'
-import { IType } from '../../types/types'
 
 interface DeviceBlockProps {
     currentType: number | undefined

@@ -1,5 +1,3 @@
-import styles from './Basket.module.css'
-
 const Basket = () => {
 
     return (

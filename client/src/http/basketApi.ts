@@ -1,4 +1,4 @@
-import { $AuthHost, $host} from '.'
+import { $AuthHost} from '.'
 
 export const addDeviceInBasket = async (deviceId: number ) => {
     const { data } = await $AuthHost.post('api/basket', {deviceId: deviceId})

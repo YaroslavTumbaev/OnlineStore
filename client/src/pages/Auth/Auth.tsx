@@ -21,12 +21,11 @@ const Auth = () => {
 
     const click = async () => {
         try {
-            let result;
             if (isLogin) {
-                result = await login(data.email, data.password)
+                await login(data.email, data.password)
                 console.log(1);
             }else {
-                result = await registration(data.email, data.password)
+                await registration(data.email, data.password)
             }
             context?.setUser({
                 _isAuth: true,

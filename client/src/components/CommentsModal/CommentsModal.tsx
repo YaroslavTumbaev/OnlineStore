@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react'
+import { FC, useEffect } from 'react'
 import styles from './CommentsModal.module.css'
 import { checkMessage } from '../../http/messageApi'
 import { StarOutlined } from '@ant-design/icons'

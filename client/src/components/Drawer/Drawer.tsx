@@ -15,7 +15,7 @@ const DrawerBlock: FC<DrawerBlockProps> = ({ isDrawer, setIsDrawer }) => {
     const context = useContext(UserContext)
 
     const deleteDevice = (deviceId: number) => {
-        deleteDeviceOutBasket(deviceId).then(data => context?.setBasket(prev => prev?.filter(e => e.deviceId !== deviceId)))
+        deleteDeviceOutBasket(deviceId).then(() => context?.setBasket(prev => prev?.filter(e => e.deviceId !== deviceId)))
     }
     
     return (

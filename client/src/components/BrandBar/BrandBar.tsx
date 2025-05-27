@@ -1,7 +1,6 @@
-import { FC, useContext, useState } from 'react'
+import { FC, useContext } from 'react'
 import styles from './BrandBar.module.css'
 import { UserContext } from '../../contexts/UserContext'
-import { IType } from '../../types/types'
 
 interface BrandBarProps {
     currentBrand: number | undefined

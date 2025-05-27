@@ -3,7 +3,6 @@ import styles from './DeviceBlock.module.css'
 import { FC, useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { paths } from '../../utils/consts'
-import { IType } from '../../types/types'
 import { UserContext } from '../../contexts/UserContext'
 
 interface DeviceCardProps {
@@ -15,7 +14,7 @@ interface DeviceCardProps {
     typeId: number | undefined
 }
 
-const DeviceCard: FC<DeviceCardProps> = ({name, img, rate, id, typeId, brandId}) => {
+const DeviceCard: FC<DeviceCardProps> = ({name, img, rate, id, brandId}) => {
 
     const navigate = useNavigate()
     const context = useContext(UserContext)

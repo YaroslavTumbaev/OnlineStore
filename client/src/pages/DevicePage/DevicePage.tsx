@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom'
 import styles from './Device.module.css'
 import { StarOutlined } from '@ant-design/icons'
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useState } from 'react'
 import { UserContext } from '../../contexts/UserContext'
 import { addDeviceInBasket } from '../../http/basketApi'
 import { createMessage } from '../../http/messageApi'
@@ -45,7 +45,6 @@ const Device = () => {
     const addComment = () => {
         createMessage(device!.id, message, rate).then(data => console.log(data))
         setMessage('')
-        const newRating = (device!.rating + rate) / 2
         updateRating(device!.id, rate).then(data => console.log(data))
         setRate(5)
     }
